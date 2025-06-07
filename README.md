@@ -1,7 +1,7 @@
 # 딥러닝 기말 프로젝트
 
-**[DeepLabV3++ Model 1](#DeepLabV3++-Model-1)** : branch [one_way] <br>
-**[DeepLabV3++ Model 2](#DeepLabV3++-Model-2)** : branch [main]
+**[DeepLabV3++ Model 1]** : branch [one_way] <br>
+**[DeepLabV3++ Model 2]** : branch [main]
 ---
 ## 실행환경
 > #### 환경설정
