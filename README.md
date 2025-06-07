@@ -15,15 +15,17 @@
 
 ## 각 경로 설정 방법
 ### Model 1
+print_xception_model.py 파일 <br>
+`18줄 --- OUTPUT_DIR = "가중치 및 시각화 저장 폴더"` <br>
+`194줄 --- setup_dataset_from_aihub('데이터 폴더 위치')`
+
 ### Model 2
 dualPrint.py 파일 <br>
 `21줄 --- OUTPUT_DIR = "가중치 및 시각화 저장 폴더"` <br>
 `204줄 --- setup_dataset_from_aihub('데이터 폴더 위치')`
 
 ## DeepLabV3++ Model 1
-1. aihub_dataset을 `print_xception_model.py`과 같은 디렉토리에 download
-2. `python print_xception_model.py`를 사용하여 실행
+1. `python print_xception_model.py`를 사용하여 실행
 
 ## DeepLabV3++ Model 2
-1. aihub_dataset을 `print_xception_model.py`과 같은 디렉토리에 download
-2. `python dualPrint.py`를 사용하여 실행
+1. `python dualPrint.py`를 사용하여 실행
