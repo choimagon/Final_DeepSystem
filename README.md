@@ -27,9 +27,11 @@ dualPrint.py 파일 <br>
 
 ---
 ## DeepLabV3++ Model 1
-1. `python print_xception_model.py`를 사용하여 실행
+1. `git clone --branch one_way https://github.com/choimagon/Final_DeepSystem.git`
+2. `python print_xception_model.py`를 사용하여 실행
 
 ## DeepLabV3++ Model 2
-1. `python dualPrint.py`를 사용하여 실행
+1. `git clone https://github.com/choimagon/Final_DeepSystem.git` 
+2. `python dualPrint.py`를 사용하여 실행
 
 ---
