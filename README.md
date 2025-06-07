@@ -16,8 +16,8 @@
 ## 각 경로 설정 방법
 ### Model 1
 ### Model 2
-dualPrint.py 파일 
-`21줄 --- OUTPUT_DIR = "가중치 및 시각화 저장 폴더"`
+dualPrint.py 파일 <br>
+`21줄 --- OUTPUT_DIR = "가중치 및 시각화 저장 폴더"` <br>
 `204줄 --- setup_dataset_from_aihub('데이터 폴더 위치')`
 
 ## DeepLabV3++ Model 1
