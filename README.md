@@ -13,7 +13,9 @@
 > 5. ```pip install albumentations timm```
 ---
 ## 데이터 다운로드
-[데이터 다운로드](https://drive.google.com/drive/folders/1us3Nwr37IuqZfPR8kkJspbQxkv5bx7Ac?usp=drive_link)
+[데이터 원본](https://www.aihub.or.kr/aihubdata/data/view.do?searchKeyword=%EA%B7%A0%EC%97%B4&aihubDataSe=data&dataSetSn=71769)
+
+[데이터 다운로드](https://drive.google.com/drive/folders/1us3Nwr37IuqZfPR8kkJspbQxkv5bx7Ac?usp=drive_link) <- 사용한 데이터
 
 ## 폴더 구조
 ```
