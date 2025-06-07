@@ -11,3 +11,5 @@ python 3.9.22, cuda 11.8, torch 2.2.2, torchvision 0.17.2, albumentations 2.0.8
 2. `python print_xception_model.py`를 사용하여 실행
 
 ## DeepLabV3++ Model 2
+1. aihub_dataset을 `print_xception_model.py`과 같은 디렉토리에 download
+2. `python dualPrint.py`를 사용하여 실행
