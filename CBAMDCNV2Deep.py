@@ -135,27 +135,14 @@ class CrossAttention(nn.Module):
 
 
 # ----------------------------- ASPP Modules -----------------------------
-# class ASPPConv(nn.Sequential):
-#     def __init__(self, in_channels, out_channels, dilation):
-#         modules = [
-#             nn.Conv2d(in_channels, out_channels, 3, padding=dilation, dilation=dilation, bias=False),
-#             nn.BatchNorm2d(out_channels),
-#             nn.ReLU(inplace=True)
-#         ]
-#         super(ASPPConv, self).__init__(*modules)
 class ASPPConv(nn.Sequential):
     def __init__(self, in_channels, out_channels, dilation):
-        super(ASPPConv, self).__init__(
-            # Depthwise Convolution
-            nn.Conv2d(in_channels, in_channels, kernel_size=3, padding=dilation,
-                      dilation=dilation, groups=in_channels, bias=False),
-            nn.BatchNorm2d(in_channels),
-            nn.ReLU(inplace=True),
-            # Pointwise Convolution
-            nn.Conv2d(in_channels, out_channels, kernel_size=1, bias=False),
+        modules = [
+            nn.Conv2d(in_channels, out_channels, 3, padding=dilation, dilation=dilation, bias=False),
             nn.BatchNorm2d(out_channels),
             nn.ReLU(inplace=True)
-        )
+        ]
+        super(ASPPConv, self).__init__(*modules)
 
 class ASPPPooling(nn.Sequential):
     def __init__(self, in_channels, out_channels):
