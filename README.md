@@ -13,6 +13,8 @@
 > 5. ```pip install albumentations timm```
 ---
 ## 각 경로 설정 방법
+### 데이터 다운로드
+[데이터 다운로드](https://drive.google.com/drive/folders/1us3Nwr37IuqZfPR8kkJspbQxkv5bx7Ac?usp=drive_link)
 ### Model 1
 print_xception_model.py 파일 <br>
 `18줄 --- OUTPUT_DIR = "가중치 및 시각화 저장 폴더"` <br>
