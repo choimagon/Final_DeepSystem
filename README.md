@@ -15,6 +15,19 @@
 ## 데이터 다운로드
 [데이터 다운로드](https://drive.google.com/drive/folders/1us3Nwr37IuqZfPR8kkJspbQxkv5bx7Ac?usp=drive_link)
 
+## 폴더 구조
+```
+Final_DeepSystem/
+├── network/
+│   ├── backbone/
+│   │   ├── ...
+│   │   └── xception.py
+│   ├── modeling.py
+│   └── _deeplab.py
+├── dualPrint.py                   <- main branch
+└── print_xception_model.py        <- one_way branch
+```
+
 ## 각 경로 설정 방법
 ### Model 1
 print_xception_model.py 파일 <br>
