@@ -26,7 +26,7 @@ Final_DeepSystem/
 │   └── _deeplab.py                <- one_way branch | model 1 구조 코드
 ├── print_xception_model.py        <- one_way branch | model 1 학습 및 시각화 코드
 ├── dualPrint.py                   <- main branch | model 2 학습 및 시각화 코드
-└── CBAMDCNV2Deep.py               <- model 2 구조 코드
+└── CBAMDCNV2Deep.py               <- main branch | model 2 구조 코드
 ```
 
 ## 각 경로 설정 방법
