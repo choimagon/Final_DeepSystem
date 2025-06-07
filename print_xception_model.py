@@ -191,7 +191,7 @@ def calculate_recall(pred, target, eps=1e-6):
 # 학습 코드 수정
 def train_crack_model():
     # 데이터셋 설정
-    dataset_info = setup_dataset_from_aihub('aihub_dataset')
+    dataset_info = setup_dataset_from_aihub('/Users/khseon/Coding/4_1/DeepLabV3Plus-Pytorch/aihub_dataset')
     
     if not dataset_info:
         print("데이터셋 설정 실패")
